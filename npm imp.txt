@@ -1,0 +1,65 @@
+// npm important Terminals command :-
+
+## for the packages that is going to be saved on dependencies in package.json   :-
+npm install <package-name> 
+
+Shortcut :-
+npm i <package-name> 
+
+# for running what's in dev in package.json 
+(like here for launching App.js with vite) :-
+npm run dev
+
+
+
+## for the packages that is going to be saved on devDependencies (Developer Dependencies) in package.json  :-
+
+npm install --save-dev <package-name> 
+Shortcut :-
+npm i -D <package-name>
+
+
+
+## for specifying the versions of package that you want to download add @<version> after the name of the package 
+=> like :-
+npm i <package-name>@<version>
+
+=> for Example :-
+npm i react@18.2.0
+
+
+
+## for runnuing what's in the 'format' section of package.json file 
+npm run format 
+
+
+## for installing 'react' packages :-
+npm i react react-dom
+
+
+## for intalling 'eslint :-
+npm i -D eslint@8.24.0 eslint-config-prettier@8.5.0
+
+# for running eslint 
+npm run lint
+
+# for debugging with eslint :-
+npm run lint -- --debug
+
+# for fixing only some of the errors with eslint :-
+npm run lint -- --fix 
+
+# for adding some important plugins in eslint :-
+npm i -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+
+# for adding React-Hooks plugin in eslint :-
+npm i -D eslint-plugin-react-hooks
+
+## for installing vite (a build tool for modern web apps) :-
+npm i -D vite@3.1.4 @vitejs/plugin-react@2.1.0
+
+
+
+
+
+
